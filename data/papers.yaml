@@ -1,0 +1,541 @@
+papers:
+  # ------------------------------------------------------------------ image person
+  - id: ag-reid-2023
+    method: Explainable AG-ReID
+    year: 2023
+    venue: ICME
+    title: "Aerial-Ground Person Re-ID"
+    task: image-ag-reid
+    categories: [attribute-guidance, view-discrepancy]
+    datasets: [AG-ReID]
+    paper: https://arxiv.org/abs/2303.08597
+    code: https://github.com/huynguyen792/AG-ReID
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: vdt-2024
+    method: VDT
+    year: 2024
+    venue: CVPR
+    title: "View-decoupled Transformer for Person Re-identification under Aerial-ground Camera Network"
+    task: image-ag-reid
+    categories: [view-decoupling, transformer]
+    datasets: [CARGO, AG-ReID]
+    paper: https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_View-decoupled_Transformer_for_Person_Re-identification_under_Aerial-ground_Camera_Network_CVPR_2024_paper.html
+    code: https://github.com/LinlyAC/VDT-AGPReID
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: agreidv2-2024
+    method: AG-ReID.v2 baseline
+    year: 2024
+    venue: IEEE T-ITS
+    title: "AG-ReID.v2: Bridging Aerial and Ground Views for Person Re-identification"
+    task: image-ag-reid
+    categories: [attribute-guidance, multiview]
+    datasets: [AG-ReID.v2]
+    paper: https://arxiv.org/abs/2401.02634
+    code: https://github.com/huynguyen792/AG-ReID.v2
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: secap-2025
+    method: SeCap
+    year: 2025
+    venue: CVPR
+    title: "Self-Calibrating and Adaptive Prompts for Cross-view Person Re-Identification in Aerial-Ground Networks"
+    task: image-ag-reid
+    categories: [prompt-learning, semantic-alignment, vision-language]
+    datasets: [LAGPeR, G2APS-ReID, CARGO]
+    paper: https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SeCap_Self-Calibrating_and_Adaptive_Prompts_for_Cross-view_Person_Re-Identification_in_CVPR_2025_paper.html
+    code: https://github.com/wangshining681/SeCap-AGPReID
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: vif-2025
+    method: VIF-AGReID
+    year: 2025
+    venue: ICCV
+    title: "Bridging the Sky and Ground: Towards View-Invariant Feature Learning for Aerial-Ground Person Re-Identification"
+    task: image-ag-reid
+    categories: [view-invariant-learning, augmentation, metric-learning]
+    datasets: [CARGO, AG-ReID, AG-ReID.v2]
+    paper: https://openaccess.thecvf.com/content/ICCV2025/html/Khalid_Bridging_the_Sky_and_Ground_Towards_View-Invariant_Feature_Learning_for_ICCV_2025_paper.html
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: gsalign-2025
+    method: GSAlign
+    year: 2025
+    venue: NeurIPS
+    title: "Geometric and Semantic Alignment Network for Aerial-Ground Person Re-Identification"
+    task: image-ag-reid
+    categories: [geometric-alignment, semantic-alignment, visibility]
+    datasets: [CARGO]
+    paper: https://proceedings.neurips.cc/paper_files/paper/2025/hash/86c17de05579cde52025f9984e6e2ebb-Abstract-Conference.html
+    code: https://github.com/stone96123/GSAlign
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: latex-2025
+    method: LATex
+    year: 2025
+    venue: arXiv
+    title: "Leveraging Attribute-based Text Knowledge for Aerial-Ground Person Re-Identification"
+    task: image-ag-reid
+    categories: [vision-language, attribute-guidance, text-knowledge]
+    datasets: []
+    paper: https://arxiv.org/abs/2503.23722
+    code: null
+    status: preprint
+    verified_on: 2026-08-18
+
+  - id: dtst-2025
+    method: DTST
+    year: 2025
+    venue: ICME
+    title: "Dynamic Token Selective Transformer for Aerial-Ground Person Re-Identification"
+    task: image-ag-reid
+    categories: [transformer, token-selection, dynamic]
+    datasets: []
+    paper: https://yuhaiw.github.io/DTS-AGPReID/ICMEYuhai.pdf
+    code: https://github.com/YuhaiW/reidselecttoken
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: cvaf-2025
+    method: CVAF
+    year: 2025
+    venue: ACM TOMM
+    title: "A CLIP-Based View-Consistent Alignment Framework for Aerial-Ground Person Re-Identification"
+    task: image-ag-reid
+    categories: [vision-language, clip, view-consistency]
+    datasets: []
+    paper: https://dl.acm.org/doi/pdf/10.1145/3785482
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: pdpa-2025
+    method: PDPA
+    year: 2025
+    venue: ICIG
+    title: "Perspective Driven Prototype Alignment for Aerial-Ground Person Re-identification"
+    task: image-ag-reid
+    categories: [perspective, prototype-alignment]
+    datasets: []
+    paper: https://link.springer.com/chapter/10.1007/978-981-95-3393-0_42
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: uagrpg-2025
+    method: UAGRPG
+    year: 2025
+    venue: Drones
+    title: "Unsupervised Aerial-Ground Re-Identification from Pedestrian to Group for UAV-Based Surveillance"
+    task: image-ag-reid
+    categories: [unsupervised, group, clustering]
+    datasets: []
+    paper: https://www.mdpi.com/2504-446X/9/4/244
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: implicit-decoder-2025
+    method: "—"
+    year: 2025
+    venue: Acta Automatica Sinica
+    title: "Implicit Decoder Alignment for Aerial-ground Person Re-identification"
+    task: image-ag-reid
+    categories: [decoder-alignment]
+    datasets: []
+    paper: https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c240705
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: atr-2017
+    method: "—"
+    year: 2017
+    venue: ATR
+    title: "Person Re-Identification Across Aerial and Ground-Based Cameras by Deep Feature Fusion"
+    task: image-ag-reid
+    categories: [deep-feature-fusion]
+    datasets: []
+    paper: https://publica.fraunhofer.de/bitstreams/ef904224-f31f-484d-b8d2-56695e46779c/download
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: georeid-2026
+    method: GeoReID
+    year: 2026
+    venue: arXiv
+    title: "Rectifying Geometry-Induced Similarity Distortions for Real-World Aerial-Ground Person Re-Identification"
+    task: image-ag-reid
+    categories: [geometry-conditioning, attention, similarity-rectification, prompt-learning]
+    datasets: [CARGO, AG-ReID.v2, LAGPeR, DetReIDX]
+    paper: https://arxiv.org/abs/2601.21405
+    code: https://github.com/kailashhambarde/GeoReID
+    status: preprint
+    verified_on: 2026-08-18
+
+  - id: visa-2026
+    method: ViSA
+    year: 2026
+    venue: CVPR
+    title: "View-Aware Semantic Alignment for Aerial-Ground Person Re-Identification"
+    task: image-ag-reid
+    categories: [view-aware-learning, semantic-alignment, local-reasoning]
+    datasets: [AG-ReID.v2, CARGO, LAGPeR]
+    paper: https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_View-Aware_Semantic_Alignment_for_Aerial-Ground_Person_Re-Identification_CVPR_2026_paper.html
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: hihr-2026
+    method: HiHR
+    year: 2026
+    venue: ECCV
+    title: "Hierarchical Hyperbolic Representation for Aerial-Ground Person Re-Identification"
+    task: image-ag-reid
+    categories: [hyperbolic-learning, vision-language, multigranularity]
+    datasets: []
+    paper: https://arxiv.org/abs/2607.09186
+    code: https://github.com/YangQiWei3/HiHR
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: 3d-lens-2026
+    method: 3D-LENS
+    year: 2026
+    venue: ECCV
+    title: "3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification"
+    task: single-view-ag-reid
+    categories: [3d-reconstruction, novel-view-synthesis, domain-generalization]
+    datasets: []
+    paper: https://arxiv.org/abs/2604.26520
+    code: https://github.com/TurtleSmoke/3D-LENS
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: sd-reid-2026
+    method: SD-ReID
+    year: 2026
+    venue: IEEE TIP
+    title: "View-aware Stable Diffusion for Aerial-Ground Person Re-Identification"
+    task: image-ag-reid
+    categories: [diffusion, view-aware, generative]
+    datasets: []
+    paper: https://arxiv.org/abs/2504.09549
+    code: https://github.com/924973292/SD-ReID
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: cfan-2026
+    method: CFAN
+    year: 2026
+    venue: CVPR
+    title: "Cross-modal Fuzzy Alignment Network for Text-Aerial Person Retrieval and A Large-scale Benchmark"
+    task: text-ag-reid
+    categories: [vision-language, text-retrieval, benchmark]
+    datasets: []
+    paper: https://arxiv.org/abs/2603.20721
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: glpsg-2026
+    method: GLPSG
+    year: 2026
+    venue: PRCV
+    title: "Global-local prompts-driven semantic guidance for aerial-ground person re-identification"
+    task: image-ag-reid
+    categories: [prompt-learning, semantic-guidance, vision-language]
+    datasets: []
+    paper: https://link.springer.com/chapter/10.1007/978-981-95-5755-4_7
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: tag-clip-2026
+    method: TAG-CLIP
+    year: 2026
+    venue: AAAI
+    title: "Text-based Aerial-Ground Object Retrieval"
+    task: text-ag-reid
+    categories: [vision-language, text-retrieval, clip]
+    datasets: []
+    paper: https://arxiv.org/pdf/2511.08369
+    code: https://github.com/Flame-Chasers/TAG-PR
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: svpr-reid-2026
+    method: SVPR-ReID
+    year: 2026
+    venue: AAAI
+    title: "Semantic-Driven Visual Progressive Refinement for Aerial-Ground Person ReID: A Challenging Large-Scale Benchmark"
+    task: image-ag-reid
+    categories: [semantic-refinement, benchmark, vision-language]
+    datasets: [CP2108]
+    paper: https://ojs.aaai.org/index.php/AAAI/article/view/38339
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  # ------------------------------------------------------------------ image vehicle
+  - id: cvnet-2025
+    method: CVNet
+    year: 2025
+    venue: SENSORS
+    title: "Lightweight Cross-View Vehicle ReID with Multi-Scale Localization"
+    task: image-vehicle-ag-reid
+    categories: [lightweight, multi-scale-localization]
+    datasets: []
+    paper: https://www.mdpi.com/1424-8220/25/9/2809
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: agid-2025
+    method: AGID
+    year: 2025
+    venue: Remote Sensing
+    title: "Aerial-Ground Cross-View Vehicle Re-Identification: A Benchmark Dataset and Baseline"
+    task: image-vehicle-ag-reid
+    categories: [benchmark, baseline]
+    datasets: []
+    paper: https://www.mdpi.com/2072-4292/17/15/2653
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  # ------------------------------------------------------------------ video person
+  - id: cross-platform-2024
+    method: "—"
+    year: 2024
+    venue: ECCV
+    title: "Cross-Platform Video Person ReID: A New Benchmark Dataset and Adaptation Approach"
+    task: video-ag-reid
+    categories: [benchmark, adaptation, cross-platform]
+    datasets: []
+    paper: https://arxiv.org/abs/2408.07500
+    code: https://github.com/FHR-L/VSLA-CLIP
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: ag-vpreid-2025
+    method: AG-VPReID-Net
+    year: 2025
+    venue: CVPR
+    title: "AG-VPReID: A Challenging Large-Scale Benchmark for Aerial-Ground Video-based Person Re-Identification"
+    task: video-ag-reid
+    categories: [temporal-modeling, scale-aware, benchmark]
+    datasets: [AG-VPReID]
+    paper: https://openaccess.thecvf.com/content/CVPR2025/html/Nguyen_AG-VPReID_A_Challenging_Large-Scale_Benchmark_for_Aerial-Ground_Video-based_Person_Re-Identification_CVPR_2025_paper.html
+    code: https://github.com/agvpreid25/AG-VPReID-Net
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: vm-taps-2025
+    method: VM-TAPS
+    year: 2025
+    venue: IJCB
+    title: "View-specific Memory with Temporal and Scale Awareness Framework for Video-based Cross-View Person Re-Identification"
+    task: video-ag-reid
+    categories: [view-specific-memory, temporal, scale-awareness]
+    datasets: []
+    paper: https://www.di.ubi.pt/%7Ehugomcp/doc/rashid_ijcb2025.pdf
+    code: https://github.com/MdRashidunnabi/VM-TAPS
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: mtf-cvreid-2025
+    method: MTF-CVReID
+    year: 2025
+    venue: IEEE T-BIOM
+    title: "Seeing Across Time and Views: Multi-Temporal Cross-View Learning for Robust Video Person Re-Identification"
+    task: video-ag-reid
+    categories: [multi-temporal, cross-view]
+    datasets: []
+    paper: https://arxiv.org/pdf/2511.02564
+    code: https://github.com/MdRashidunnabi/MTF-CVReID
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: detreidx-2026
+    method: DetReIDX baselines
+    year: 2026
+    venue: IEEE T-BIOM
+    title: "DetReIDX: A Stress-Test Dataset for Real-World UAV-Based Person Recognition"
+    task: video-ag-reid
+    categories: [benchmark, extreme-distance, cross-session, multitask]
+    datasets: [DetReIDX]
+    paper: https://arxiv.org/abs/2505.04793
+    code: https://www.it.ubi.pt/DetReIDX/
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: sas-vpreid-2026
+    method: SAS-VPReID
+    year: 2026
+    venue: WACV Workshops
+    title: "A Scale-Adaptive Framework with Shape Priors for Video-based Person Re-Identification at Extreme Far Distances"
+    task: video-ag-reid
+    categories: [scale-adaptive, shape-priors, extreme-distance]
+    datasets: []
+    paper: https://arxiv.org/pdf/2601.05535
+    code: https://github.com/YangQiWei3/SAS-VPReID
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: s3-clip-2026
+    method: S3-CLIP
+    year: 2026
+    venue: WACV Workshops
+    title: "Video Super Resolution for Person-ReID"
+    task: video-ag-reid
+    categories: [video-super-resolution, vision-language, clip]
+    datasets: []
+    paper: https://arxiv.org/abs/2601.08807
+    code: https://github.com/TomasDelaney/S3-CLIP
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: dfgs-vpreid-2026
+    method: DFGS + uncertainty fusion
+    year: 2026
+    venue: WACV Workshops
+    title: "Enhancing Aerial-Ground Video Person Re-Identification via DFGS-Guided CLIP Sampling and Inference-Time Uncertainty-Aware Fusion"
+    task: video-ag-reid
+    categories: [vision-language, sampling, uncertainty, inference-fusion]
+    datasets: [DetReIDX]
+    paper: https://openaccess.thecvf.com/content/WACV2026W/VReID-XFD/html/Nguyen_Enhancing_Aerial-Ground_Video_Person_Re-Identification_via_DFGS-Guided_CLIP_Sampling_and_WACVW_2026_paper.html
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: eagle-reid-2026
+    method: EAGLE-ReID
+    year: 2026
+    venue: WACV Workshops
+    title: "EAGLE-ReID: Strategic Alignment and Delta Consistency for Extreme Far-Distance Aerial-Ground Re-Identification"
+    task: video-ag-reid
+    categories: [alignment, consistency, extreme-distance]
+    datasets: [DetReIDX]
+    paper: https://openaccess.thecvf.com/content/WACV2026W/VReID-XFD/html/Kang_EAGLE-ReID_Strategic_Alignment_and_Delta_Consistency_for_Extreme_Far-Distance_Aerial-Ground_WACVW_2026_paper.html
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  # ------------------------------------------------------------------ multimodal
+  - id: whu-mars-2026
+    method: UAD
+    year: 2026
+    venue: CVPR
+    title: "WHU-MARS: A Multispectral Aerial-Ground Benchmark Towards Any-Scenario Person Re-Identification"
+    task: multimodal-ag-reid
+    categories: [multispectral, any-scenario, prototype-learning, benchmark]
+    datasets: [WHU-MARS]
+    paper: https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_WHU-MARS_A_Multispectral_Aerial-Ground_Benchmark_Towards_Any-Scenario_Person_Re-Identification_CVPR_2026_paper.html
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  # ------------------------------------------------------------------ challenges
+  - id: ag-reid-challenge-2023
+    method: "—"
+    year: 2023
+    venue: IJCB
+    title: "AG-ReID 2023: Aerial-Ground Object Re-identification Challenge Results"
+    task: challenge
+    categories: [challenge, benchmark]
+    datasets: [AG-ReID]
+    paper: https://cvlab.cse.msu.edu/pdfs/IJCB_AG_ReID2023_Challenge_Summary_Paper.pdf
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: ag-vpreid-challenge-2025
+    method: "—"
+    year: 2025
+    venue: IJCB
+    title: "AG-VPReID 2025: Aerial-Ground Video-based Object Re-identification Challenge Results"
+    task: challenge
+    categories: [challenge, benchmark]
+    datasets: [AG-VPReID]
+    paper: https://arxiv.org/pdf/2506.22843
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: vreidx-xfd-2026
+    method: "—"
+    year: 2026
+    venue: WACV
+    title: "VReID-XFD: Video-based Object Re-identification at Extreme Far Distance Challenge Results"
+    task: challenge
+    categories: [challenge, extreme-distance, benchmark]
+    datasets: [DetReIDX]
+    paper: https://arxiv.org/pdf/2601.01312v1
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  # ------------------------------------------------------------------ related
+  - id: aerialgait-2024
+    method: AerialGait
+    year: 2024
+    venue: ACM MM
+    title: "AerialGait: Bridging Aerial and Ground Views for Gait Recognition"
+    task: related
+    categories: [gait, cross-view]
+    datasets: []
+    paper: https://dl.acm.org/doi/pdf/10.1145/3664647.3681002
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: mp-reid-2025
+    method: MP-ReID
+    year: 2025
+    venue: arXiv
+    title: "Multi-modal Multi-platform Person Re-Identification: Benchmark and Method"
+    task: related
+    categories: [multimodal, multi-platform, benchmark]
+    datasets: [MP-ReID]
+    paper: https://arxiv.org/pdf/2503.17096
+    code: https://github.com/MP-ReID/mp-reid
+    dataset_url: https://drive.google.com/file/d/1hImLEMcsBB2kNV4McGyksVAumLjZQoUU/view
+    status: preprint
+    verified_on: 2026-08-18
+
+  - id: aea-firm-2025
+    method: AEA-FIRM
+    year: 2025
+    venue: IEEE TCSVT
+    title: "AEA-FIRM: Adaptive Elastic Alignment with Fine-Grained Representation Mining for Text-based Aerial Pedestrian Retrieval"
+    task: related
+    categories: [vision-language, text-retrieval, fine-grained]
+    datasets: [AEA-FIRM]
+    paper: https://ieeexplore.ieee.org/document/11072214
+    code: https://github.com/xbdxwyh/AEA-FIRM-main
+    dataset_url: https://drive.google.com/file/d/1YYIpBDoJzTIwYRlpWUqEHmpo5GK05S_W/view
+    status: peer-reviewed
+    verified_on: 2026-08-18
+
+  - id: omni-3d-2025
+    method: "—"
+    year: 2025
+    venue: IEEE SPL
+    title: "Omni-Directional View Person Re-Identification Through 3D Human Reconstruction"
+    task: related
+    categories: [3d-reconstruction, omni-directional]
+    datasets: []
+    paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10839551
+    code: null
+    status: peer-reviewed
+    verified_on: 2026-08-18

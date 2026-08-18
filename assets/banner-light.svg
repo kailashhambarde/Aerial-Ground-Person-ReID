@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f8ff"/>
+      <stop offset="1" stop-color="#dbe6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#g)"/>
+  <circle cx="1030" cy="85" r="140" fill="#4c6fff" opacity="0.06"/>
+  <circle cx="1110" cy="300" r="190" fill="#4c6fff" opacity="0.05"/>
+  <text x="72" y="150" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#0b1220">Aerial-Ground Person Re-Identification</text>
+  <text x="75" y="205" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#3a4a6b">A curated research resource for AGPReID</text>
+  <text x="75" y="267" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#5a6c94">Papers  ·  Datasets  ·  Taxonomy  ·  Protocols  ·  Leaderboards  ·  Code</text>
+  <path d="M910 210 L980 152 L1055 203 L1120 128" fill="none" stroke="#3a4a6b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <circle cx="910" cy="210" r="10" fill="#0b1220"/><circle cx="980" cy="152" r="10" fill="#0b1220"/><circle cx="1055" cy="203" r="10" fill="#0b1220"/><circle cx="1120" cy="128" r="10" fill="#0b1220"/>
+</svg>

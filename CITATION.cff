@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use Aerial-Ground Person Re-Identification in your research, please cite this software resource and the original papers/datasets you rely on."
+title: "Aerial-Ground Person Re-Identification: Papers, Datasets, Benchmarks and Research Resources"
+type: software
+authors:
+  - family-names: Hambarde
+    given-names: Kailash A.
+repository-code: "https://github.com/kailashhambarde/Aerial-Ground-Person-ReID"
+url: "https://github.com/kailashhambarde/Aerial-Ground-Person-ReID"
+license: MIT
+date-released: 2026-08-18
+keywords:
+  - AGPReID
+  - person re-identification
+  - aerial-ground re-identification
+  - UAV
+  - cross-view recognition
+  - computer vision

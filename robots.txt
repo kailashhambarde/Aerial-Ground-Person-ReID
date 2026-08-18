@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raw.githubusercontent.com/kailashhambarde/Aerial-Ground-Person-ReID/main/sitemap.xml

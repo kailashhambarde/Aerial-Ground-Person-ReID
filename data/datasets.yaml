@@ -1,0 +1,221 @@
+datasets:
+  - name: AG-ReID
+    year: 2023
+    category: Image.Person
+    identities: 388
+    images: 21983
+    tracklets: null
+    frames: null
+    boxes: null
+    platforms: [UAV, CCTV]
+    modalities: [RGB]
+    video: false
+    altitude_m: "15-45"
+    distance_m: null
+    notes: "15 soft attributes per identity."
+    source: https://arxiv.org/abs/2303.08597
+    download: https://drive.google.com/file/d/1hzieEPlXfjkN3V3XWqI5rAwpF_sCF1K9/view
+
+  - name: AG-ReID.v2
+    year: 2024
+    category: Image.Person
+    identities: 1615
+    images: 100502
+    tracklets: null
+    frames: null
+    boxes: null
+    platforms: [UAV, CCTV, wearable]
+    modalities: [RGB]
+    video: false
+    altitude_m: "15-45"
+    distance_m: null
+    notes: "15 identity-level attributes; 807 train IDs and 808 test IDs."
+    source: https://github.com/huynguyen792/AG-ReID.v2
+    download: https://drive.google.com/drive/folders/16r7G_CuUqfWG6_UCT7goIGRMqJird6vK
+
+  - name: CARGO
+    year: 2024
+    category: Image.Person
+    identities: 5000
+    images: 108563
+    tracklets: null
+    frames: null
+    boxes: null
+    platforms: [aerial-camera, ground-camera]
+    modalities: [RGB]
+    video: false
+    altitude_m: null
+    distance_m: null
+    notes: "Synthetic Unity3D benchmark with 5 aerial and 8 ground cameras."
+    source: https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_View-decoupled_Transformer_for_Person_Re-identification_under_Aerial-ground_Camera_Network_CVPR_2024_paper.html
+    download: https://drive.google.com/file/d/1yDjyH0VtW7efxP3vgQjIqTx2oafCB67t/view
+
+  - name: LAGPeR
+    year: 2025
+    category: Image.Person
+    identities: 4231
+    images: 63841
+    tracklets: null
+    frames: null
+    boxes: null
+    platforms: [aerial, ground]
+    modalities: [RGB]
+    video: false
+    altitude_m: null
+    distance_m: null
+    notes: "Introduced with SeCap."
+    source: https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SeCap_Self-Calibrating_and_Adaptive_Prompts_for_Cross-view_Person_Re-Identification_in_CVPR_2025_paper.html
+    download: https://pan.baidu.com/share/init?surl=MRrhqoQzwxw7qOx4Lqdl2g
+
+  - name: G2APS-ReID
+    year: 2025
+    category: Image.Person
+    identities: 2788
+    images: 200800
+    tracklets: null
+    frames: null
+    boxes: null
+    platforms: [UAV, CCTV]
+    modalities: [RGB]
+    video: false
+    altitude_m: "20-60"
+    distance_m: null
+    notes: "Reconstructed from the G2APS person-search dataset."
+    source: https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SeCap_Self-Calibrating_and_Adaptive_Prompts_for_Cross-view_Person_Re-Identification_in_CVPR_2025_paper.html
+    download: https://pan.baidu.com/share/init?surl=MRrhqoQzwxw7qOx4Lqdl2g
+
+  - name: AG-VPReID
+    year: 2025
+    category: Video.Person
+    identities: 6632
+    images: null
+    tracklets: 32321
+    frames: 9600000
+    boxes: null
+    platforms: [UAV, CCTV, wearable]
+    modalities: [RGB]
+    video: true
+    altitude_m: "15-120"
+    distance_m: null
+    notes: "Large-scale video AG-ReID benchmark."
+    source: https://openaccess.thecvf.com/content/CVPR2025/html/Nguyen_AG-VPReID_A_Challenging_Large-Scale_Benchmark_for_Aerial-Ground_Video-based_Person_Re-Identification_CVPR_2025_paper.html
+    download: https://drive.google.com/drive/folders/1wtdhKzK9Fbj7xkGAM84KNJ1uYCxSMHdj
+
+  - name: DetReIDX
+    year: 2026
+    category: Video.Person
+    identities: 509
+    images: null
+    tracklets: null
+    frames: null
+    boxes: 12600000
+    platforms: [UAV, DSLR, ground]
+    modalities: [RGB]
+    video: true
+    altitude_m: "5.8-120"
+    distance_m: "10-120"
+    notes: "Multi-session stress test; 18 UAV viewpoints; detection, tracking, ReID, search and action annotations."
+    source: https://www.it.ubi.pt/DetReIDX/
+    download: https://github.com/kailashhambarde/DetReIDX/tree/main
+
+  - name: AG-VPReID.VIR
+    year: 2025
+    category: Video.Person
+    identities: 1837
+    images: null
+    tracklets: 4861
+    frames: 124855
+    boxes: null
+    platforms: [UAV, CCTV]
+    modalities: [RGB, infrared]
+    video: true
+    altitude_m: null
+    distance_m: null
+    notes: "Aerial-ground cross-modality video person ReID."
+    source: https://arxiv.org/abs/2507.17995
+    download: https://drive.google.com/drive/folders/1Iy814PqWjwIZcv6CZpieFju-Dop9Y2G7
+
+  - name: WHU-MARS
+    year: 2026
+    category: Image.Person
+    identities: 2337
+    images: 434620
+    tracklets: null
+    frames: null
+    boxes: null
+    platforms: [UAV, ground]
+    modalities: [RGB, NIR, TIR]
+    video: false
+    altitude_m: null
+    distance_m: null
+    notes: "Any-scenario ReID benchmark spanning day/night, seasons and weather."
+    source: https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_WHU-MARS_A_Multispectral_Aerial-Ground_Benchmark_Towards_Any-Scenario_Person_Re-Identification_CVPR_2026_paper.html
+    download: null
+
+  - name: CP2108
+    year: 2026
+    category: Image.Person
+    identities: null
+    images: null
+    tracklets: null
+    frames: null
+    boxes: null
+    platforms: [aerial, ground]
+    modalities: [RGB]
+    video: false
+    altitude_m: null
+    distance_m: null
+    notes: "Large-scale text-aerial person retrieval benchmark introduced with SVPR-ReID."
+    source: https://ojs.aaai.org/index.php/AAAI/article/view/38339
+    download: https://github.com/ahu-xhao/SVPR-ReID
+
+  - name: MOO
+    year: 2026
+    category: Image.Animal
+    identities: null
+    images: null
+    tracklets: null
+    frames: null
+    boxes: null
+    platforms: ["—"]
+    modalities: [RGB]
+    video: false
+    altitude_m: null
+    distance_m: null
+    notes: "Multi-view object observation dataset for animals, companion to 3D-LENS."
+    source: https://github.com/TurtleSmoke/MOO
+    download: https://github.com/TurtleSmoke/MOO
+
+  - name: MP-ReID
+    year: 2025
+    category: Multimodal.Person
+    identities: null
+    images: null
+    tracklets: null
+    frames: null
+    boxes: null
+    platforms: [multi-platform]
+    modalities: [RGB, infrared]
+    video: false
+    altitude_m: null
+    distance_m: null
+    notes: "Multi-modal multi-platform person Re-ID benchmark and method."
+    source: https://arxiv.org/pdf/2503.17096
+    download: https://drive.google.com/file/d/1hImLEMcsBB2kNV4McGyksVAumLjZQoUU/view
+
+  - name: AEA-FIRM
+    year: 2025
+    category: Text.Person
+    identities: null
+    images: null
+    tracklets: null
+    frames: null
+    boxes: null
+    platforms: [aerial, ground]
+    modalities: [RGB, text]
+    video: false
+    altitude_m: null
+    distance_m: null
+    notes: "Text-based aerial pedestrian retrieval dataset introduced with AEA-FIRM."
+    source: https://ieeexplore.ieee.org/document/11072214
+    download: https://drive.google.com/file/d/1YYIpBDoJzTIwYRlpWUqEHmpo5GK05S_W/view
