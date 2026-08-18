@@ -1,0 +1,30 @@
+name: Validate repository
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate data and generated tables
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Validate YAML metadata
+        run: python scripts/validate_data.py
+      - name: Check generated tables are up to date
+        run: python scripts/generate_tables.py --check
+      - name: Check trend chart is up to date
+        run: python scripts/generate_trends.py --check
+      - name: Check index page is up to date
+        run: python scripts/generate_site.py --check

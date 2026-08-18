@@ -1,0 +1,44 @@
+name: Sync generated tables
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/*.yaml"
+      - "scripts/*.py"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    name: Regenerate docs tables from YAML
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Validate metadata
+        run: python scripts/validate_data.py
+      - name: Regenerate tables
+        run: python scripts/generate_tables.py
+      - name: Regenerate trend chart
+        run: python scripts/generate_trends.py
+      - name: Regenerate index page
+        run: python scripts/generate_site.py
+      - name: Commit regenerated artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/papers.md docs/datasets.md assets/publication_trend.svg index.html robots.txt sitemap.xml
+          if git diff --cached --quiet; then
+            echo "No table changes to commit"
+          else
+            git commit -m "Regenerate docs tables from data YAML"
+            git push
+          fi

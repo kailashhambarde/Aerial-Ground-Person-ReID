@@ -1,0 +1,42 @@
+name: Add a benchmark result
+description: Submit an official, paper-reported, or reproduced result
+title: "[Result] "
+labels: [benchmark]
+body:
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset
+    validations:
+      required: true
+  - type: input
+    id: protocol
+    attributes:
+      label: Exact protocol / split
+    validations:
+      required: true
+  - type: input
+    id: direction
+    attributes:
+      label: Direction
+      description: A2G, G2A, A2A, G2G, ALL, or benchmark-defined
+    validations:
+      required: true
+  - type: input
+    id: method
+    attributes:
+      label: Method
+    validations:
+      required: true
+  - type: input
+    id: metrics
+    attributes:
+      label: Rank-1 / mAP
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+    validations:
+      required: true
